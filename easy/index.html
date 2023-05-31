@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/icofont/icofont.min.css">
+    
+    
+</head>
+<body>
+    <section class="login-head">
+        <div class="login-container">
+            <div  class="login-right" id="Login" >
+                <h1>Generate Easy Ecom API Token</h1>
+                <div class="login-sub-contain">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Easy Ecom Email" id="email">
+                </div>
+                <div class="login-item">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" id="password" class="password">
+                    <i class="icofont-eye-blocked" id="togglePassword"></i>
+                </div>
+                <p id="result" class="login-errror"></p>
+            </div>
+                <div class="login-btn">
+                    <button class="button-65" role="button" id="button"><span class="text">Submit</span></button>                  
+                </div>
+            </div>
+            <div class="login-left">
+                    <div>
+                        <img src="./css/api.jpg" alt="" width="100%">
+                    </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
